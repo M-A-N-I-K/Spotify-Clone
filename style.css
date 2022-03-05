@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Bree+Serif&family=Markazi+Text:wght@600&family=Redressed&family=Ubuntu:ital,wght@0,400;1,300;1,400&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0px 12px;
+}
+.brand img{
+    width: 40px;
+    padding: 0 6px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.25rem;
+}
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 15px auto;
+    width: 70%;
+    border-radius: 10px;
+    padding: 20px;
+    background-image: url('pexels-daniel-reche-3721941.jpg');
+    background-size: 1180px;
+    background-repeat: no-repeat;
+}
+.bottom{
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 105px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+}
+.icons{
+    margin: 12px 0;
+}
+.icons i{
+    padding: 0 10px;
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.songItemContainer{
+    margin-top: 75px;
+}
+.songItem{
+    height: 40px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    padding: 0 10px;
+}
+.songItem img{
+    width: 40px;
+    margin: 0 23px;
+    border-radius: 30px;
+}
+.songInfo{
+    position: absolute;    
+    font-family: 'Varela Round', sans-serif;
+    left:10vw;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
+.timestamp{
+    margin:20px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
